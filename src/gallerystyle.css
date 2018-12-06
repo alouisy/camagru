@@ -1,0 +1,227 @@
+/*
+
+<section class="container">
+
+	<div class="wall">
+
+		<article class="postbox">
+
+			<header class="topbox">
+
+				<div class="userpp">
+					<img src="img/avatar.png" alt="pp" class="pp">
+				</div>
+
+				<div class="usercredits">
+					<span></span>
+				</div>
+			</header>
+			
+			<div class="imgbox">
+				<img class="postpic" alt="image" src="pictures/">
+			</div>
+
+			<div class="imgreaction">
+
+				<section class="likearea">
+					<a href="index.php?page=$pageActuelle"><img src="img/like.png" alt="bouttonlike"></a>
+					<span></span>
+				</section>
+
+				<section class="descarea">
+					<span> Likes</span>
+				</section>
+				<div class="commenttextarea">
+					<ul>
+						<li>
+							<span class="commentuser"></span>
+							<span class="commentmsg"></span>
+						</li>
+					</ul>			
+				</div>
+				<section class="commentformarea">
+					<form class="commentform" method="post" action="index.php?page='.$pageActuelle.'">
+						<textarea class="commentfield" name="comment" placeholder="Ajouter un commentaire..." maxlength="280"></textarea>
+						<input type="submit" value="Commenter">
+					</form>
+				</section>
+			</div>
+		</article>
+	</div>
+</section>
+
+*/
+
+.postbox {
+	display: block;
+	position: relative;
+	width: 640px;
+	height: 680px;
+	margin: auto;
+	border: black 1px;
+	border-style : solid;
+	background-color: white;
+}
+
+.topbox {
+	display: block;
+	position: relative;
+	width: 630px;
+	height: 40px;
+	padding: 5px 5px;
+}
+
+.userpp {
+	display: inline-block;
+	position: relative;
+	width: 40px;
+	height: 40px;
+	vertical-align: top;
+	/*overflow: hidden;
+	border-radius: 50%;*/
+}
+
+.pp {
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	height: 100%;
+	width: auto;
+}
+
+.usercredits {
+	display: inline-block;
+	position: relative;
+	vertical-align: top;
+	line-height: 40px;
+	height: 40px;
+	width: 570px;
+	margin-left: 10px;
+}
+
+.usercredits span {
+	display: inline;	
+	position: relative;
+}
+
+.imgbox {
+	display: block;
+	position: relative;
+	width: 640px;
+	height: 480px;
+}
+
+.postpic {
+	height: 480px;
+	width: 640px;
+}
+
+.imgreaction {
+	display: block;
+	position: relative;
+	width: 610px;
+	height: 150px;
+	padding: 0 15px;
+}
+
+.likearea {
+	display: block;
+	width: 610px;
+	height: 25px;
+}
+
+.likearea form {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	width: 25px;
+	height: 25px;
+}
+
+.likediv {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	line-height: 25px;
+	width: 445px;
+	margin-left: 5px;
+	height: 25px;
+}
+
+.fbthings {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	line-height: 25px;
+	width: 125px;
+	height: 25px;
+}
+.descarea {
+	display: block;
+	line-height: 25px;
+	width: 610px;
+	height: 25px;
+}
+
+.commenttextarea {
+	display: block;
+	width: 610px;
+	height: 59px;
+	padding-bottom: 1px;
+
+}
+
+.commenttextarea ul {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	overflow-y: auto;
+}
+.commentuser {
+	font-style: oblique;
+	font-weight: bold;
+	text-align: left;
+}
+.commentmsg {
+	
+}
+.commentformarea {
+	border-top: solid rgba(255, 93, 192, 0.84) 1px;
+	display: block;
+	width: 610px;
+	height: 30px;
+	padding: 5px 0;
+}
+
+.commentform {
+	position: relative;
+	height: 30px;
+	width: 610px;;
+}
+
+.commentfield {
+	display: inline-block;
+	width: 576px;
+	height: 26px;
+	max-height: 26px;
+	line-height: 26px;
+	border: none;
+	resize: none;
+	outline: none;
+	overflow-y: auto;
+}
+
+.commentbutton {
+	position: absolute;
+	display: inline-block;
+	bottom: 0px;
+	right: 0px;
+	width: 30px;
+	height: 30px;
+}
+
+.pagesindex {
+
+}

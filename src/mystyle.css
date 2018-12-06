@@ -1,0 +1,217 @@
+body {
+	background-image: url("https://azzxl.com/camagru/img/gradien.png");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: Avenir, Helvetica, Verdana, sans-serif;
+}
+
+#infos {
+/*<img src="img/42nav.png" alt="42logo" style="height:55px;width:140px;display:block;">*/
+}
+
+#login-main, #signup-main, #update-main, #recovery-main, #resend-main {
+	display: block;
+	width: 420px;
+}
+
+#file-container {
+
+}
+
+#live-container {
+
+}
+
+#webcam-preview {
+	display: block;
+}
+
+#webcam-live {
+	display: inline-block;
+	vertical-align: top;
+	width: 644px;
+	height: 484px;
+}
+
+#webcam-side {
+	display: inline-block;
+	vertical-align: top;
+	width: 214px;
+	height: 483px;
+}
+
+#side {
+	display: block;
+	height: 483px;
+	width: 214px;
+}
+
+#webcam-settings, #webcam-result {
+	display: block;
+}
+
+#file-settings {
+	display: block;
+}
+
+#file-result {
+	display: block;
+	width: 644px;
+	height: 484px;
+}
+
+
+.minipic {
+	display: block;
+	height: 159px;
+	width: 212px;
+	border: black 1px;
+	border-style : solid;
+	border-radius: 5px;
+}
+
+#live, #result {
+	display: block;
+	position: relative;
+	border: black 2px;
+	border-style : solid;
+	border-radius: 5px;
+	width: 640px;
+	height: 480px;
+}
+
+#video, #photo {
+	display: block;
+	position: absolute;
+	z-index: 10;
+	width: 640px;
+	height: 480px;
+}
+
+#video {
+	transform: rotateY(180deg);
+	-webkit-transform:rotateY(180deg); /* Safari and Chrome */
+	-moz-transform:rotateY(180deg); /* Firefox */
+}
+
+#filtre {
+	display: block;
+	position: absolute;
+	z-index: 11;
+	width: 640px;
+	height: 480px;
+}
+
+#startbutton {
+	display: block;
+	position: absolute;
+	z-index: 12;
+	left: 260px;
+	bottom: 25px;
+	width: 120px;
+	background-color: rgba(0, 150, 0, 0.5);
+	border: 1px solid rgba(255, 255, 255, 0.7);
+	color: rgba(255, 255, 255, 1.0);
+}
+
+#canvas, #canvas2 {
+	display: none;
+}
+
+#settings {
+	display: block;
+	position: relative;
+	width: 640px;
+
+}
+
+nav {
+	background-color: white;
+	border-bottom: solid black 1px;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	width: 140px;
+	height: 55px;
+}
+
+nav ul li a {
+	display: inline-block;
+	text-decoration: none;
+	width: 140px;
+	height: 55px;
+}
+
+nav ul li a div {
+	display: inline-block;
+	width: 140px;
+	height: 55px;
+	color: black;
+	vertical-align: top;
+	line-height: 55px;
+}
+
+nav ul li a:hover {
+	background-color: rgba(255, 93, 192, 0.84);
+}
+
+#signup-form, #login-form, #recovery-form, #resend-form, #update-form, #file-form, #webcam-form {
+	display: block;
+	background-color: white;
+	border: solid black 2px;
+	border-radius: 5px;
+	color: black;
+}
+
+.error {
+	color: #FF0000;
+}
+
+#headernav {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 70px;
+	z-index: 100;
+}
+
+.content {
+	padding-top: 110px;
+	padding-bottom: 55px;
+}
+
+footer {
+	position: fixed;
+	display: block;
+	z-index: 99;
+	text-align: center;
+	color: white;
+	font-size: small;
+	background-color: black;
+	border-top: solid white 1px;
+	box-sizing: border-box;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 55px;
+}
+
+address {
+	display: block;
+	box-sizing: border-box;
+	margin: 0 auto;
+	width: 100%;
+}
+
+footer a {
+	text-decoration: none;
+	color: rgba(255, 93, 192, 0.84);
+	font-size: small;
+}
